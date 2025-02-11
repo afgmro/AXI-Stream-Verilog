@@ -1,1 +1,9 @@
+# Notes for AXI4
+
 B stands for buffered, because the response from the slave happens after all writes have completed.
+## Improve bandwidth and latency of data transfers and transactions:
+  Independent read and write channels
+  Multiple outstanding addresses
+  No strict timing relationship between address and data operations
+  Support for unaligned data transfers 
+  Out-of-order transaction completion: different ID values
