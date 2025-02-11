@@ -1,0 +1,1 @@
+B stands for buffered, because the response from the slave happens after all writes have completed.
